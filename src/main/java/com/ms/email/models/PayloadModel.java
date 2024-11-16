@@ -16,7 +16,7 @@ public class PayloadModel implements Serializable {
     @Id
     @GeneratedValue( strategy = GenerationType.UUID )
     private UUID idPayload;
-    private UUID nrUuidReceiver;
+    private String nrUuidReceiver;
 
     private String subject;
     private String receiver;

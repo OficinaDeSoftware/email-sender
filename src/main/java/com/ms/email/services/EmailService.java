@@ -5,7 +5,6 @@ import com.ms.email.models.ContextPayloadModel;
 import com.ms.email.models.PayloadModel;
 import com.ms.email.models.TemplatePayloadModel;
 import com.ms.email.repositories.PayloadRepository;
-import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

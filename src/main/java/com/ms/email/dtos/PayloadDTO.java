@@ -7,7 +7,7 @@ import java.util.UUID;
 @Data
 
 public class PayloadDTO {
-    private UUID nrUuidReceiver;
+    private String nrUuidReceiver;
     private String receiver;
     private String subject;
     private TemplateDTO template;
