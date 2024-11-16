@@ -97,7 +97,7 @@ public class EmailService {
             payloadModel.setSender( sender );
 
             MimeMessage message = emailSender.createMimeMessage();
-            MimeMessageHelper helper = new MimeMessageHelper( message, true );
+            MimeMessageHelper helper = new MimeMessageHelper( message, true, "UTF-8" );
 
             helper.setTo( payloadModel.getReceiver() );
             helper.setSubject( payloadModel.getSubject() );
