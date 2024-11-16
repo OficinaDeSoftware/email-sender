@@ -24,6 +24,7 @@ public class EmailSenderApplication {
 	@Order(Integer.MIN_VALUE)
 	public CommandLineRunner flywayMigrate( Flyway flyway ) {
 		return args -> {
+			// TODO não esta funcionando corretamente
 			// Executa as migrações do Flyway após a inicialização do JPA
 			flyway.migrate();
 		};
