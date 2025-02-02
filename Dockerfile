@@ -8,7 +8,7 @@ RUN mvn clean package -DskipTests && \
 
 FROM eclipse-temurin:17-jre-alpine
 
-EXPOSE 5050
+EXPOSE 5054
 
 COPY --from=build /target/email-sender-0.0.1-SNAPSHOT.jar app.jar
 
