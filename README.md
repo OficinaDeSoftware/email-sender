@@ -7,6 +7,8 @@ A e-mail sender, send custom e-mail base on html templates.
 
 - For send e-mails is necessary a [APP Password](  https://support.google.com/accounts/answer/185833 )
 
+- For use [rabbitMQ](https://www.rabbitmq.com/) can be used [CloudAMQP](https://www.cloudamqp.com/?utm_source=google&utm_medium=cpc&utm_campaign=22122760224&utm_term=cloudamqp&gad_source=1&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQqQXgOmzzDNWNQcL_VLEbipQ_JwFqcbyC5iuldiwui7wQdlljm9u6xoCdnoQAvD_BwE)
+
 ### Now suport two templates
 
  ![Welcome]( documentation/images/welcome.png)
